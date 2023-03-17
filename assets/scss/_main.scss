@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  // background-color: hsl(270, 53%, 99%);
+
+  .contentText {
+    color: hsl(233, 8%, 62%);;
+  }
+  
+}
+
+// NavBar styles
+#navBarContainer {
+  //hide navbar over hero mockup image
+  position: relative;
+  z-index: 2;
+  
+  // Keep request invite button visible on desktop but hidden on mobile
+  #inviteBtn{
+    display: none;
+    
+    @media (min-width: 992px) {
+      display: block;
+    }
+  }
+
+  #navCtaBtn {
+    background: rgb(49,211,92);
+    background: -moz-linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+    background: linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#31d35c",endColorstr="#2bb7da",GradientType=1); 
+  }
+
+  #navCtaBtn:hover {
+    opacity: 80%;
+  }
+
+  .nav-link:hover {
+    border-bottom: 2px solid;
+    border-bottom-color: rgb(49,211,92);
+  }
+
+  .mobileNavBarContainer {
+    opacity: 40%;
+  }
+
+
+}
+
+// Hero styles
+#HeroContainer {
+
+  background-color: hsl(0, 0%, 98%);
+  
+  #HeroContainerTwo {
+    
+    // Hero background image for mobile
+    #mobileBckgdContainer {
+
+      #mobileBackground {
+        position: absolute;
+        width: 100%;
+        
+        @media (max-width: 992px) {
+          display: block;
+        }
+        @media (min-width: 992px) {
+          display: none;
+        }
+      }
+    }
+    
+    // Hero background image for desktop
+    #desktopBckgdContainer{
+      
+      #desktopBackground {
+        position: absolute;
+        z-index: 1;
+        width: 50%;
+        
+        @media (min-width: 992px) {
+          display: block;
+          max-width: 100%;
+        }
+        @media (max-width: 992px) {
+          display: none;
+        }
+      }
+    }
+    
+    // position hero mockup over background image
+    #mockupContainer {
+      position: relative;
+      z-index: 2;
+      
+      @media (min-width: 992px) {
+        min-width: 50%;
+        margin-left: 30%;
+      }
+
+      @media (max-width: 992px) {
+        padding: 10px;
+      }
+      
+      #heroMockup {
+        @media (min-width: 992px) {
+          margin-left: 150px;
+        }
+      }
+    }
+  } 
+  
+  #heroCtaBtn {
+    background: rgb(49,211,92);
+    background: -moz-linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+    background: linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#31d35c",endColorstr="#2bb7da",GradientType=1); 
+  }
+
+  #heroCtaBtn:hover {
+    opacity: 80%;
+  }
+}
+
+// Features section styles
+#featuresContainer{
+  position: relative;
+  background-color: hsl(220, 16%, 96%);
+}
+
+// blog section styles
+#blogContainer{
+  background-color: hsl(0, 0%, 98%);
+
+  
+  .blogTopic:hover {
+      color:rgb(49,211,92);
+      cursor: pointer;
+    }
+}
+
+// footer styles
+.footerContainer{
+  color: hsl(0, 0%, 98%);;
+  background-color: hsl(233, 26%, 24%);  
+  
+  // footer logo
+  #footerLogo{
+    color: hsl(0, 0%, 98%);;
+  }
+
+  #footerCTABtn {
+    background: rgb(49,211,92);
+    background: -moz-linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+    background: linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#31d35c",endColorstr="#2bb7da",GradientType=1); 
+  }
+  
+  #footerCTABtn:hover {
+    opacity: 80%;
+  }
+
+  .nav-link:hover {
+    color:rgb(49,211,92);
+  }
+
+
+}
+
