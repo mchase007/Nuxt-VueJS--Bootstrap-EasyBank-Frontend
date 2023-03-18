@@ -38,14 +38,13 @@ body {
   }
 
   .nav-link:hover {
-    border-bottom: 2px solid;
-    border-bottom-color: rgb(49,211,92);
-  }
 
-  .mobileNavBarContainer {
-    opacity: 40%;
+    @media (min-width: 992px) {
+      border-bottom-color: rgb(49,211,92);
+      border-bottom: 5px solid;
+    }
+    color: #2d314d;
   }
-
 
 }
 

@@ -11,8 +11,8 @@
           <i class="fs-1 text-body" :class="menuIcon"></i>
         </button>
         <!-- Links -->
-        <div id="navbarNavAltMarkup" class="mobileNavBarContainer collapse bg-dark navbar-collapse">
-          <div class="navbar-nav contentText bg-warning ms-md-auto mx-auto text-center col-8 col-md-5 d-lg-flex justify-content-lg-between">
+        <div id="navbarNavAltMarkup" class="mobileNavBarContainer collapse navbar-collapse">
+          <div class="navbar-nav contentText ms-md-auto mx-auto text-center col-8 col-md-5 d-lg-flex justify-content-lg-between">
             <a class="nav-link" aria-current="page" href="#">Home</a>
             <a class="nav-link" href="#">About</a>
             <a class="nav-link" href="#">Contact</a>
