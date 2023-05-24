@@ -76,8 +76,9 @@
     </div>
       <!-- Attributes -->
       <div class="attribution text-center small contentText">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">M. Chase</a>.
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        <br> 
+        Coded by <a href="https://github.com/mchase007" target="_blank">M. Chase🚀</a>
   </div>
   </div>
 </template>
