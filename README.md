@@ -1,4 +1,4 @@
-# easyBankFrontEnd
+# Nuxt-VueJS--Bootstrap-EasyBank-Frontend
 
 ## Build Setup
 
